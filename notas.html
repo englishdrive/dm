@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="images/fav.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet">  
+	<link rel="stylesheet" href="app/nt.css">
+	<link rel="stylesheet" href="app/selec.css">
+
+	<title>GRUPO SCRUM | NOTAS</title>
+
+</head>
+<body>
+	<div class="contenedor">
+		<div class="columna-izquierda">
+			<div class="registro activo" id="registro">
+
+                <div class="header">
+					<h1>NOTAS</h1>
+					<p>Consulta tu nota mediante esta lista.</p>
+				</div>
+
+				<div class="contenedor-boton">
+					<a href="/" class="button">Inicio</a>
+				</div>
+
+				<br>
+				<br>
+
+                <input type="text" id="califi" onkeyup="myFunction()" placeholder="Buscar..." title="Buscar...">
+
+                <table id="calif">
+					<thead>
+                    <tr class="header">
+                        <th style="width:2%;"></th>
+                        <th style="width:58%;">Nombres y Apellidos:</th>
+                        <th style="width:40%; text-align: center;">Nota:</th>
+                    </tr>
+					</thead>
+                    
+					<tbody>
+                    <tr>
+                        <td>01</td>
+                        <td>ALDAIR GONZALO FLORES CUTIPA</td>
+                        <td style="text-align: center;">19</td>
+                    </tr>
+
+                    <tr>
+                        <td>02</td>
+                        <td>ALVARO MILDWARD QUISPE MERMA</td>
+                        <td style="text-align: center;">SCRUM</td>
+                    </tr>
+
+					<tr>
+                        <td>03</td>
+                        <td>AMERICA SONALI MAMANI PACHECO</td>
+                        <td style="text-align: center;">17</td>
+                    </tr>
+
+					<tr>
+                        <td>04</td>
+                        <td>ANGEL WILLAM HERRERA QUISPE</td>
+                        <td style="text-align: center;">ND</td>
+                    </tr>
+
+					<tr>
+                        <td>05</td>
+                        <td>ARMANDO FELIPE GONZALES QUISPE</td>
+                        <td style="text-align: center;">ND</td>
+                    </tr>
+
+					<tr>
+                        <td>06</td>
+                        <td>CARLOS DANIEL FLORES CUTIMBO</td>
+                        <td style="text-align: center;">11</td>
+                    </tr>
+
+					<tr>
+                        <td>07</td>
+                        <td>CRISTHIAN ÑACA VELASQUEZ</td>
+                        <td style="text-align: center;">ND</td>
+                    </tr>
+
+					<tr>
+                        <td>08</td>
+                        <td>EDGAR CHURA HUMORA</td>
+                        <td style="text-align: center;">15</td>
+                    </tr>
+
+					<tr>
+                        <td>09</td>
+                        <td>EDY JALLAHUI DURAN</td>
+                        <td style="text-align: center;">SCRUM</td>
+                    </tr>
+
+					<tr>
+                        <td>10</td>
+                        <td>ESTANISLAO EDI FLORES FLORES</td>
+                        <td style="text-align: center;">SCRUM</td>
+                    </tr>
+
+					<tr>
+                        <td>11</td>
+                        <td>GUSTAVO HUMBERTO MACHACA ORTEGA</td>
+                        <td style="text-align: center;">ND</td>
+                    </tr>
+
+					<tr>
+                        <td>12</td>
+                        <td>HILDA MOROCCO HUALLPA</td>
+                        <td style="text-align: center;">ND</td>
+                    </tr>
+
+					<tr>
+                        <td>13</td>
+                        <td>JHOSSELIN MILAGROS RIVERA CHOQUE</td>
+                        <td style="text-align: center;">12</td>
+                    </tr>
+
+					<tr>
+                        <td>14</td>
+                        <td>JULIO CESAR CJUNO PEÑA</td>
+                        <td style="text-align: center;">11</td>
+                    </tr>
+
+					<tr>
+                        <td>15</td>
+                        <td>LIZBETH CECILIA APAZA QUISPE</td>
+                        <td style="text-align: center;">17</td>
+                    </tr>
+
+					<tr>
+                        <td>16</td>
+                        <td>MERYLUZ YANINA CUTIPA QUISPE</td>
+                        <td style="text-align: center;">15</td>
+                    </tr>
+
+					<tr>
+                        <td>17</td>
+                        <td>MILAGROS ASTRIDH VILCA VELASQUEZ</td>
+                        <td style="text-align: center;">19</td>
+                    </tr>
+
+					<tr>
+                        <td>18</td>
+                        <td>MIRIAN PALOMINO MERMA</td>
+                        <td style="text-align: center;">17</td>
+                    </tr>
+
+					<tr>
+                        <td>19</td>
+                        <td>PATRICIA ALEJANDRA PEREZ CHECALLA</td>
+                        <td style="text-align: center;">11</td>
+                    </tr>
+
+					<tr>
+                        <td>20</td>
+                        <td>PATRICIA PAMELA CANO GUTIERREZ</td>
+                        <td style="text-align: center;">ND</td>
+                    </tr>
+
+					<tr>
+                        <td>21</td>
+                        <td>SANDRA KAREN PANCA MAMANI</td>
+                        <td style="text-align: center;">ND</td>
+                    </tr>
+
+					<tr>
+                        <td>22</td>
+                        <td>VICTOR ELVIS JORGE CALJARO</td>
+                        <td style="text-align: center;">15</td>
+                    </tr>
+
+					<tr>
+                        <td>23</td>
+                        <td>WILLIAM VLADIMIR VILCAPAZA CHOQUE</td>
+                        <td style="text-align: center;">17</td>
+                    </tr>
+
+					<tr>
+                        <td>24</td>
+                        <td>WILSON EBER MACHACA LIMACHI</td>
+                        <td style="text-align: center;">11</td>
+                    </tr>
+
+					<tr>
+                        <td>25</td>
+                        <td>YENI MEZULAN APAZA QUISPE</td>
+                        <td style="text-align: center;">15</td>
+                    </tr>
+
+					<tr>
+                        <td>26</td>
+                        <td>YHOSELY LISBETH TAPIA MAMANI</td>
+                        <td style="text-align: center;">12</td>
+                    </tr>
+
+					<tr>
+                        <td>27</td>
+                        <td>YOEL GALINDO CHAMBI</td>
+                        <td style="text-align: center;">ND</td>
+                    </tr>
+
+					<tr>
+                        <td>28</td>
+                        <td>YOHANA BRIGITT CONDORI GARNICA</td>
+                        <td style="text-align: center;">19</td>
+                    </tr>
+
+					<tr>
+                        <td>29</td>
+                        <td>YULIANA KATERIN VENTURA AYCACHI</td>
+                        <td style="text-align: center;">11</td>
+                    </tr>
+
+					</tbody>
+
+                </table>
+
+			</div>
+		</div>
+	</div>
+
+    <script src="app/hde.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="app/nt.js"></script>
+
+</body>
+</html>
+
+

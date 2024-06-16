@@ -1,0 +1,23 @@
+input[type="submit"].scrum,
+input[type="reset"].scrum,
+input[type="button"].scrum,
+button.scrum,
+.button.scrum {
+    background-color: #2144df    ;
+}
+
+    input[type="submit"].scrum:hover,
+    input[type="reset"].scrum:hover,
+    input[type="button"].scrum:hover,
+    button.scrum:hover,
+    .button.scrum:hover {
+        background-color: #3459ff;
+    }
+
+    input[type="submit"].scrum:active,
+    input[type="reset"].scrum:active,
+    input[type="button"].scrum:active,
+    button.scrum:active,
+    .button.scrum:active {
+        background-color: #2144df;
+    }

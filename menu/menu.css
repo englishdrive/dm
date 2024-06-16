@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kadwa&display=swap');
+
+.container {
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.headerab {
+    background: #2c2c32;
+    color: white;
+    padding: 1rem 0;
+
+}
+
+.headerab a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 0.8em;
+}
+
+.logoab-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    flex-wrap: wrap;
+}
+
+.logoab {
+    letter-spacing: 0px;
+    font-size: 1.2em;
+}
+
+.menu-iconab {
+    display: none;
+}
+
+.navigationab ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigationab ul li {
+    display: inline-block;
+
+}
+
+.navigationab ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+
+.navigationab ul li a:hover {
+    background-color: #2144df;
+}
+
+.mainab {
+    padding: 12rem;
+}
+
+@media only screen and (max-width: 750px) {
+
+    .menu-iconab {
+        display: block;
+        cursor: pointer;
+        padding: 0.5rem 1rem;
+    }
+
+    .navigationab {
+        width: 100%;
+        margin-top: 0.2rem;
+    }
+
+    .navigationab ul {
+        display: none;
+    }
+
+    .navigationab ul.show {
+        display: block;
+    }
+
+    .navigationab ul li {
+        display: block;
+    }
+    
+    .navigationab ul li a {
+        display: block;
+        padding: 0.5rem 1;
+        transition: all 0.4s linear;
+        border-radius: 5px;
+    }
+    
+    .navigationab ul li a:hover {
+        background-color: #2144df;
+    }
+
+}
