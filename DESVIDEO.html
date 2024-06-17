@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" href="img/dmlogo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+    <script src="https://cdn.plyr.io/3.7.8/plyr.js" defer></script>
+    <title>ENGLISHDRIVE</title>
+</head>
+<body>
+
+    <section id="contenido">
+        <header>
+            <img src="img/dmlogo.png" alt="">
+            <h1><span>ENGLISH</span>DRIVE</h1>
+        </header>
+        <div>
+            <h2>WEEK 03</h2>
+            <table id="tabla">
+                <tr>
+                    <td colspan="2"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" id="desc1">TOPIC 04 - MONTHLY ORAL EXAM.pdf</td>
+                </tr>
+                <tr>
+                    <td id="desc2">2ND BIMESTER</td>
+                    <td id="desc3">THEN AND NOW</td>
+                </tr>
+				<tr>
+                    <td colspan="2" id="btn1"><input type="button" onclick="location.href='https://www.dropbox.com/scl/fi/tofokgpiyxoknv4c6yaan/TOPIC-04-MONTHLY-ORAL-EXAM.pdf?rlkey=xoytpn24bet6e9inys7vm1cpj&st=6qrxb18i&dl=1';" value="Descargar" /></td>
+                </tr>
+                <tr>
+                    <td colspan="2" id="desc1">
+                        <video class='plyr' poster="thumbnail.jpg" playsinline controls>
+                            <source src="https://drive.google.com/uc?export=download&id=1STJ5sTAMUAFhQKL-O4ROcDOpY24C5b0F" type="video/mp4">
+                          </video>
+                    </td>
+                </tr>
+            </table>           
+        </div>
+
+    </section>
+
+    <footer>
+        <p>Lic. Joel Jallahui Duran</p>
+        <p id="grado">English Teacher</p>
+    </footer>
+
+    <script>/*<![CDATA[*/
+        window.addEventListener('DOMContentLoaded', () => {
+          const players = Array.from(document.querySelectorAll('.plyr')).map((p) => new Plyr(p,{
+            youtube: { noCookie: true },
+            i18n: {
+              quality: 'Calidad',
+              speed: 'Velocidad',
+              captions: 'Subtítulos',
+              disabled: 'Desactivar',
+              enabled: 'Activar',
+            },
+          }));
+        });/*]]>*/
+        </script>
+
+        <script>
+            document.getElementById("MyElement").style.color = "#fffff"+((1<<24)*Math.random()|0).toString(16);
+        </script>
+
+</body>
+</html>
